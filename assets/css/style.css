@@ -11,7 +11,7 @@ body {
 }
 .prt_logo_wrapper img{
     position: fixed;
-    left: 30vw;
+    left: 10vw;
     top: 50px;
     z-index: 2;
   -webkit-animation: rotate 2s linear infinite;
