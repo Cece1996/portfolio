@@ -9,6 +9,39 @@ body {
     color: #222222; 
     background-color: #fff;
 }
+.prt_logo_wrapper img{
+    position: fixed;
+    left: 30vw;
+    top: 50px;
+    z-index: 2;
+  -webkit-animation: rotate 2s linear infinite;
+  -moz-animation: rotate 2s linear infinite;
+  -o-animation: rotate 2s linear infinite;
+  -ms-animation: rotate 2s linear infinite;
+  animation: rotate 2s linear infinite;
+}
+@-webkit-keyframes rotate {
+  100% {
+    -webkit-transform: rotatey(360deg);
+  }
+}
+@-moz-keyframes rotate {
+  100% {
+    -moz-transform: rotatey(360deg);
+  }
+}
+@keyframes rotate {
+  100% {
+    transform: rotatey(360deg);
+  }
+}
+.prt_close_wrapper img{
+    position: fixed;
+    right: 50px;
+    top: 50px;
+	cursor:pointer;
+	z-index: 2;
+}
 
 img {
 	max-width: 100%
